@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
-
-	"CodewarsSolutions/mumbling"
+	"CodewarsSolutions/persistentbugger"
 )
 
 func main() {
-	result := mumbling.Accum("abcd")
-	fmt.Println(result)
+	// result := mumbling.Accum("abcd")
+	// fmt.Println(result)
+
+	persistentbugger.Persistence(4)
 }
