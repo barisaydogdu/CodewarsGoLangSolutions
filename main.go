@@ -1,12 +1,17 @@
 package main
 
 import (
-	"CodewarsSolutions/persistentbugger"
+	"CodewarsSolutions/strongnumber"
+	"fmt"
 )
 
 func main() {
 	// result := mumbling.Accum("abcd")
 	// fmt.Println(result)
 
-	persistentbugger.Persistence(4)
+	//persistentbugger.Persistence(999)
+
+	fmt.Println(strongnumber.Strong(7))
+
+	//strongnumber.Strong(7)
 }
